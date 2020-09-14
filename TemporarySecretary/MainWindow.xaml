@@ -5,8 +5,119 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TemporarySecretary"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="900" Width="1200">
+    <Grid 
+        Name="gridWindow"
+        Background="#bd5764">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+
+        <ToolBarTray Background="#dc9b9c" VerticalAlignment="Center">
+            <ToolBar Background="Transparent">
+                <Button Content="Datespan" 
+                        Background="#4a112b" 
+                        Foreground="#dc9b9c"
+                        FontWeight="Bold"
+                        Margin="7,0"
+                        FontSize="15"
+                        Name="toolDatespan"/>
+                <Separator Background="Transparent"/>
+                <Button Content="Add" 
+                        Background="#4a112b" 
+                        Foreground="#dc9b9c"
+                        FontWeight="Bold"
+                        Margin="7,0"
+                        FontSize="15"
+                        Name="toolAdd" Click="toolAdd_Click"/>
+                <Separator Background="Transparent"/>
+                <Button Content="Delete" 
+                        Background="#4a112b" 
+                        Foreground="#dc9b9c"
+                        FontWeight="Bold"
+                        Margin="7,0"
+                        FontSize="15"
+                        Name="toolDelete"/>
+                <Separator Background="Transparent"/>
+                <Button Content="Edit" 
+                        Background="#4a112b" 
+                        Foreground="#dc9b9c"
+                        FontWeight="Bold"
+                        Margin="7,0"
+                        FontSize="15"
+                        Name="toolEdit"/>
+                <Separator Background="Transparent"/>
+                <Button Content="Save" 
+                        Background="#4a112b" 
+                        Foreground="#dc9b9c"
+                        FontWeight="Bold"
+                        FontSize="15"
+                        Name="toolSave" VerticalAlignment="Bottom" Click="toolSave_Click"/>
+                <Separator Background="Transparent"/>
+                <Button Content="SaveClose" 
+                        Background="#4a112b" 
+                        Foreground="#dc9b9c"
+                        FontWeight="Bold"
+                        Margin="7,0"
+                        FontSize="15"
+                        Name="toolSaveClose" Click="toolSaveClose_Click"/>
+                <Button Content="Clean" 
+                        Background="#4a112b" 
+                        Foreground="#dc9b9c"
+                        FontWeight="Bold"
+                        Margin="7,0"
+                        FontSize="15"
+                        Name="toolClean"/>
+                <Button Content="Help" 
+                        Background="#4a112b" 
+                        Foreground="#dc9b9c"
+                        FontWeight="Bold"
+                        Margin="7,0"
+                        FontSize="15"
+                        Name="toolHelp"/>
+            </ToolBar>
+        </ToolBarTray>
+
+        <Grid 
+            Name="gridHeader"
+            Grid.Row="1" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="115*"/>
+                <ColumnDefinition Width="481*"/>
+            </Grid.ColumnDefinitions>
+            <Label 
+                Name="lblTitle"
+                Content="Temporary Secretary" 
+                Foreground="#dcb5ae"
+                FontSize="50"
+                FontWeight="Bold"
+                Margin="50,8,0,8"
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+        </Grid>
+
+        <Grid 
+            Name="gridContent"
+            Grid.Row="2"
+            Background="White"
+            Margin="20" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid
+                Grid.Row="1"
+                Background="#dc9b9c">
+                <StackPanel 
+                    Grid.Row="1" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center">
+                </StackPanel>
+            </Grid>
+        </Grid>
+
     </Grid>
 </Window>
