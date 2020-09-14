@@ -39,7 +39,7 @@
                         FontWeight="Bold"
                         Margin="7,0"
                         FontSize="15"
-                        Name="toolDelete"/>
+                        Name="toolDelete" Click="ToolDelete_Click"/>
                 <Separator Background="Transparent"/>
                 <Button Content="Edit" 
                         Background="#4a112b" 

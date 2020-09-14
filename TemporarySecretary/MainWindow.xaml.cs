@@ -23,10 +23,12 @@ namespace TemporarySecretary
     /// </summary>
     public partial class MainWindow : Window
     {
+        #region Private Fields
         //https://docs.microsoft.com/en-us/dotnet/api/system.reflection.assembly.getexecutingassembly?view=netcore-3.1
         private string config = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "config.xml");
+        #endregion
 
-
+        #region Initialize
         public MainWindow()
         {
             InitializeComponent();
@@ -34,20 +36,30 @@ namespace TemporarySecretary
             TaskCollection collection = new TaskCollection();
 
             Collection = TaskCollection.Deserialize(config);
-
-            collection.Serialize(config);
         }
+        #endregion
 
+        #region Public Properties
+        public TaskCollection Collection { get; set; }
+        #endregion
+
+        #region UI Events
         private void toolAdd_Click(object sender, RoutedEventArgs e)
         {
-            AddTask task = new AddTask();
-            task.ShowDialog();
+            AddTask wind = new AddTask();
+            wind.ShowDialog();
 
-            Task rtn = task.Return;
+            Task rtn = wind.Return;
             Collection.Add(rtn);
         }
 
-        public TaskCollection Collection { get; set; }
+        private void ToolDelete_Click(object sender, RoutedEventArgs e)
+        {
+            DeleteTask wind = new DeleteTask(Collection);
+            wind.ShowDialog();
+
+            Collection = wind.Return;
+        }
 
         private void toolSaveClose_Click(object sender, RoutedEventArgs e)
         {
@@ -59,5 +71,8 @@ namespace TemporarySecretary
         {
             Collection.Serialize(config);
         }
+        #endregion
+
+
     }
 }
