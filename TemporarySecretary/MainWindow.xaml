@@ -47,7 +47,7 @@
                         FontWeight="Bold"
                         Margin="7,0"
                         FontSize="15"
-                        Name="toolEdit"/>
+                        Name="toolEdit" Click="toolEdit_Click"/>
                 <Separator Background="Transparent"/>
                 <Button Content="Save" 
                         Background="#4a112b" 

@@ -58,7 +58,17 @@ namespace TemporarySecretary
             DeleteTask wind = new DeleteTask(Collection);
             wind.ShowDialog();
 
-            Collection = wind.Return;
+            if (wind.DialogResult == true)
+                Collection = wind.Return;
+        }
+
+        private void toolEdit_Click(object sender, RoutedEventArgs e)
+        {
+            EditTask wind = new EditTask(Collection);
+            wind.ShowDialog();
+
+            if(wind.DialogResult==true)
+                Collection = wind.Return;
         }
 
         private void toolSaveClose_Click(object sender, RoutedEventArgs e)
@@ -71,8 +81,9 @@ namespace TemporarySecretary
         {
             Collection.Serialize(config);
         }
+
         #endregion
 
-
+        
     }
 }

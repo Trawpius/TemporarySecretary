@@ -26,7 +26,7 @@
             <Label 
                 Name="lblTitle"
                 Grid.Column="0" 
-                Content="Add Task" 
+                Content="Delete Task" 
                 Foreground="#dcb5ae"
                 FontSize="25"
                 FontWeight="Bold"
@@ -53,18 +53,11 @@
                     ItemsSource="{Binding Tasks}" 
                     AutoGenerateColumns="False">
                     <DataGrid.Columns>
-                        <!--<DataGridTemplateColumn Header="Delete">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <CheckBox IsChecked="{Binding Path=IsSelected, UpdateSourceTrigger=PropertyChanged}" />
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>-->
-                        <DataGridCheckBoxColumn Header="Task Type" Binding="{Binding Selected}"/>
-                        <DataGridTextColumn Header="Task Type" Binding="{Binding Task.TaskType}"/>
-                        <DataGridTextColumn Header="Description" Binding="{Binding Task.Desc}"/>
-                        <DataGridTextColumn Header="Start Date" Binding="{Binding Task.StartDate, StringFormat='{}{0:dd/MM/yyyy}'}"/>
-                        <DataGridTextColumn Header="End Date" Binding="{Binding Task.EndDate, StringFormat='{}{0:dd/MM/yyyy}'}"/>
+                        <DataGridCheckBoxColumn Header="Delete" Binding="{Binding Selected}"/>
+                        <DataGridTextColumn Header="Task Type" Binding="{Binding Task.TaskType}" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Description" Binding="{Binding Task.Desc}" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Start Date" Binding="{Binding Task.StartDate, StringFormat='{}{0:MMM dd yyyy}'}" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="End Date" Binding="{Binding Task.EndDate, StringFormat='{}{0:MMM dd yyyy}'}" IsReadOnly="True"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </Grid>
