@@ -16,7 +16,10 @@ namespace TemporarySecretary
             InitializeComponent();
 
             foreach (var item in collection)
-                Tasks.Add(item);
+            {
+                if(!item.Completed)
+                    Tasks.Add(item);
+            }
 
             IEnumerable<TaskType> enums = Enum.GetValues(typeof(TaskType)).Cast<TaskType>();
 

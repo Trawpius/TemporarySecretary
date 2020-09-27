@@ -1,0 +1,22 @@
+﻿TO DO
+
+1. Add Habits Object
+	a. No Start or End Date
+	b. Cannot be Overdue or Complete
+	c. Has a frequency
+	d. Frequency determined
+		i. Every X Units (Every 4 days, 10th of every other month, etc.,)
+		ii. Specific days of week (Every Tues/Thurs)
+	e. Show Active
+	f. Check off daily
+2. Hide Tasks when "Complete" is clicked
+	a. Changing item in Active and Overdue collections cause UI to update
+3. Improve Edit/Add/Delete functions
+	a. Show in Calendar-style view
+4. Implement "Clean"
+	a. Loads all completed tasks and saves in binary file
+	b. Saves config with active and overdue tasks only
+	c. Reloaded for statistics only
+5. Statistics
+	a. Most overdue task type
+	b. Most quickly completed tast

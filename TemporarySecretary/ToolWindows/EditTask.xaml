@@ -98,19 +98,6 @@
                             </DataGridTemplateColumn.CellEditingTemplate>
                         </DataGridTemplateColumn>
 
-                        <DataGridTemplateColumn Header="Actual Start">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="{Binding ActualStart, StringFormat='{}{0:MMM dd yyyy}'}" />
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                            <DataGridTemplateColumn.CellEditingTemplate>
-                                <DataTemplate>
-                                    <DatePicker SelectedDate="{Binding ActualStart}" />
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellEditingTemplate>
-                        </DataGridTemplateColumn>
-
                         <DataGridTemplateColumn Header="Actual End">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>

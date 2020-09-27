@@ -3,69 +3,26 @@
   <task>
     <tasktype>Movie</tasktype>
     <desc>Tremors</desc>
-    <startdate>2020-09-15T00:00:00</startdate>
-    <enddate>2020-09-15T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
-    <actualend>0001-01-01T00:00:00</actualend>
-    <overdue>false</overdue>
-    <completed>false</completed>
-  </task>
-  <task>
-    <tasktype>Movie</tasktype>
-    <desc>Portrait of a Lady on Fire</desc>
-    <startdate>2020-09-20T00:00:00</startdate>
-    <enddate>2020-09-20T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
-    <actualend>0001-01-01T00:00:00</actualend>
-    <overdue>false</overdue>
-    <completed>false</completed>
-  </task>
-  <task>
-    <tasktype>Movie</tasktype>
-    <desc>Mad Max Thunderdome</desc>
-    <startdate>2020-09-17T00:00:00</startdate>
-    <enddate>2020-09-17T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
-    <actualend>0001-01-01T00:00:00</actualend>
-    <overdue>false</overdue>
-    <completed>false</completed>
-  </task>
-  <task>
-    <tasktype>Movie</tasktype>
-    <desc>The Godfather I</desc>
-    <startdate>2020-09-19T00:00:00</startdate>
-    <enddate>2020-09-19T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
-    <actualend>0001-01-01T00:00:00</actualend>
-    <overdue>false</overdue>
-    <completed>false</completed>
-  </task>
-  <task>
-    <tasktype>Movie</tasktype>
-    <desc>Total Recall</desc>
     <startdate>2020-09-22T00:00:00</startdate>
     <enddate>2020-09-22T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
-    <actualend>0001-01-01T00:00:00</actualend>
+    <actualend>2020-09-23T00:00:00-04:00</actualend>
     <overdue>false</overdue>
-    <completed>false</completed>
+    <completed>true</completed>
   </task>
   <task>
     <tasktype>Movie</tasktype>
     <desc>Hook</desc>
     <startdate>2020-09-24T00:00:00</startdate>
     <enddate>2020-09-24T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
-    <actualend>0001-01-01T00:00:00</actualend>
+    <actualend>2020-09-25T00:00:00-04:00</actualend>
     <overdue>false</overdue>
-    <completed>false</completed>
+    <completed>true</completed>
   </task>
   <task>
     <tasktype>Movie</tasktype>
     <desc>Mad Max Fury Road</desc>
     <startdate>2020-09-26T00:00:00</startdate>
     <enddate>2020-09-26T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
     <actualend>0001-01-01T00:00:00</actualend>
     <overdue>false</overdue>
     <completed>false</completed>
@@ -75,7 +32,6 @@
     <desc>The Godfather II</desc>
     <startdate>2020-09-27T00:00:00</startdate>
     <enddate>2020-09-27T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
     <actualend>0001-01-01T00:00:00</actualend>
     <overdue>false</overdue>
     <completed>false</completed>
@@ -85,17 +41,6 @@
     <desc>Beyond the Black Rainbow</desc>
     <startdate>2020-09-29T00:00:00</startdate>
     <enddate>2020-09-29T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
-    <actualend>0001-01-01T00:00:00</actualend>
-    <overdue>false</overdue>
-    <completed>false</completed>
-  </task>
-  <task>
-    <tasktype>Show</tasktype>
-    <desc>Sopranos S3</desc>
-    <startdate>2020-09-13T00:00:00</startdate>
-    <enddate>2020-09-19T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
     <actualend>0001-01-01T00:00:00</actualend>
     <overdue>false</overdue>
     <completed>false</completed>
@@ -103,9 +48,8 @@
   <task>
     <tasktype>Show</tasktype>
     <desc>Black Lagoon</desc>
-    <startdate>2020-09-20T00:00:00</startdate>
-    <enddate>2020-09-23T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
+    <startdate>2020-09-23T00:00:00</startdate>
+    <enddate>2020-09-26T00:00:00</enddate>
     <actualend>0001-01-01T00:00:00</actualend>
     <overdue>false</overdue>
     <completed>false</completed>
@@ -115,7 +59,6 @@
     <desc>Sopranos S4</desc>
     <startdate>2020-09-24T00:00:00</startdate>
     <enddate>2020-10-03T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
     <actualend>0001-01-01T00:00:00</actualend>
     <overdue>false</overdue>
     <completed>false</completed>
@@ -124,8 +67,7 @@
     <tasktype>Drawing</tasktype>
     <desc>Benrey Shapes</desc>
     <startdate>2020-09-13T00:00:00</startdate>
-    <enddate>2020-09-23T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
+    <enddate>2020-09-26T00:00:00</enddate>
     <actualend>0001-01-01T00:00:00</actualend>
     <overdue>false</overdue>
     <completed>false</completed>
@@ -135,7 +77,6 @@
     <desc>Wash Cry for Judas</desc>
     <startdate>2020-09-24T00:00:00</startdate>
     <enddate>2020-10-03T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
     <actualend>0001-01-01T00:00:00</actualend>
     <overdue>false</overdue>
     <completed>false</completed>
@@ -144,8 +85,7 @@
     <tasktype>Reading</tasktype>
     <desc>KSBD</desc>
     <startdate>2020-09-13T00:00:00</startdate>
-    <enddate>2020-09-19T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
+    <enddate>2020-09-26T00:00:00</enddate>
     <actualend>0001-01-01T00:00:00</actualend>
     <overdue>false</overdue>
     <completed>false</completed>
@@ -154,8 +94,7 @@
     <tasktype>Reading</tasktype>
     <desc>Halo Fall of Reach</desc>
     <startdate>2020-09-20T00:00:00</startdate>
-    <enddate>2020-09-26T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
+    <enddate>2020-09-30T00:00:00</enddate>
     <actualend>0001-01-01T00:00:00</actualend>
     <overdue>false</overdue>
     <completed>false</completed>
@@ -163,19 +102,8 @@
   <task>
     <tasktype>Reading</tasktype>
     <desc>The Jakarta Method</desc>
-    <startdate>2020-09-27T00:00:00</startdate>
-    <enddate>2020-10-03T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
-    <actualend>0001-01-01T00:00:00</actualend>
-    <overdue>false</overdue>
-    <completed>false</completed>
-  </task>
-  <task>
-    <tasktype>Writing</tasktype>
-    <desc>Spooky Action Ch7</desc>
-    <startdate>2020-09-13T00:00:00</startdate>
-    <enddate>2020-09-19T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
+    <startdate>2020-09-30T00:00:00</startdate>
+    <enddate>2020-11-07T00:00:00</enddate>
     <actualend>0001-01-01T00:00:00</actualend>
     <overdue>false</overdue>
     <completed>false</completed>
@@ -185,17 +113,6 @@
     <desc>Spooky Action Chp8</desc>
     <startdate>2020-09-20T00:00:00</startdate>
     <enddate>2020-09-30T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
-    <actualend>0001-01-01T00:00:00</actualend>
-    <overdue>false</overdue>
-    <completed>false</completed>
-  </task>
-  <task>
-    <tasktype>VideoGame</tasktype>
-    <desc>Hollow Knight</desc>
-    <startdate>2020-09-13T00:00:00</startdate>
-    <enddate>2020-09-16T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
     <actualend>0001-01-01T00:00:00</actualend>
     <overdue>false</overdue>
     <completed>false</completed>
@@ -205,7 +122,6 @@
     <desc>Hylics 2</desc>
     <startdate>2020-09-17T00:00:00</startdate>
     <enddate>2020-09-19T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
     <actualend>0001-01-01T00:00:00</actualend>
     <overdue>false</overdue>
     <completed>false</completed>
@@ -215,7 +131,150 @@
     <desc>Halo 2 </desc>
     <startdate>2020-09-20T00:00:00</startdate>
     <enddate>2020-10-03T00:00:00</enddate>
-    <actualstart>0001-01-01T00:00:00</actualstart>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Meal</tasktype>
+    <desc>Baked Ziti and Smoothie</desc>
+    <startdate>2020-09-23T00:00:00</startdate>
+    <enddate>2020-09-27T00:00:00</enddate>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Meal</tasktype>
+    <desc>Lo Mein and Quesadillas</desc>
+    <startdate>2020-09-28T00:00:00</startdate>
+    <enddate>2020-10-01T00:00:00</enddate>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Podcast</tasktype>
+    <desc>Behind the Police</desc>
+    <startdate>2020-09-27T00:00:00</startdate>
+    <enddate>2020-10-03T00:00:00</enddate>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Learning</tasktype>
+    <desc>AC Polyphase</desc>
+    <startdate>2020-09-13T00:00:00</startdate>
+    <enddate>2020-09-19T00:00:00</enddate>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Learning</tasktype>
+    <desc>Calculus Limits</desc>
+    <startdate>2020-09-13T00:00:00</startdate>
+    <enddate>2020-09-19T00:00:00</enddate>
+    <actualend>2020-09-25T00:00:00-04:00</actualend>
+    <overdue>false</overdue>
+    <completed>true</completed>
+  </task>
+  <task>
+    <tasktype>Programming</tasktype>
+    <desc>Temporary Secretary</desc>
+    <startdate>2020-09-13T00:00:00</startdate>
+    <enddate>2020-09-26T00:00:00</enddate>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Learning</tasktype>
+    <desc>AC Power Factor</desc>
+    <startdate>2020-09-20T00:00:00</startdate>
+    <enddate>2020-09-26T00:00:00</enddate>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Learning</tasktype>
+    <desc>Calculus Derivatives</desc>
+    <startdate>2020-09-20T00:00:00</startdate>
+    <enddate>2020-09-26T00:00:00</enddate>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Learning</tasktype>
+    <desc>AC Metering Circuits</desc>
+    <startdate>2020-10-25T00:00:00</startdate>
+    <enddate>2020-10-03T00:00:00</enddate>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Learning</tasktype>
+    <desc>Calculus Integrals</desc>
+    <startdate>2020-09-27T00:00:00</startdate>
+    <enddate>2020-10-03T00:00:00</enddate>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Movie</tasktype>
+    <desc>The Void</desc>
+    <startdate>2020-10-04T00:00:00</startdate>
+    <enddate>2020-10-04T00:00:00</enddate>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Movie</tasktype>
+    <desc>Carrie</desc>
+    <startdate>2020-10-06T00:00:00</startdate>
+    <enddate>2020-10-06T00:00:00</enddate>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Show</tasktype>
+    <desc>Black Lagoon S2</desc>
+    <startdate>2020-10-04T00:00:00</startdate>
+    <enddate>2020-10-10T00:00:00</enddate>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Writing</tasktype>
+    <desc>Tactical Espionage Action</desc>
+    <startdate>2020-10-04T00:00:00</startdate>
+    <enddate>2020-10-10T00:00:00</enddate>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Writing</tasktype>
+    <desc>Ship of Theseus Chp 1</desc>
+    <startdate>2020-10-11T00:00:00</startdate>
+    <enddate>2020-10-21T00:00:00</enddate>
+    <actualend>0001-01-01T00:00:00</actualend>
+    <overdue>false</overdue>
+    <completed>false</completed>
+  </task>
+  <task>
+    <tasktype>Writing</tasktype>
+    <desc>Ship of Theseus Chpt 2</desc>
+    <startdate>2020-10-22T00:00:00</startdate>
+    <enddate>2020-10-31T00:00:00</enddate>
     <actualend>0001-01-01T00:00:00</actualend>
     <overdue>false</overdue>
     <completed>false</completed>

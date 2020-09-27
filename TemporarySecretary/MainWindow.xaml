@@ -21,9 +21,8 @@
                         Background="#4a112b" 
                         Foreground="#dc9b9c"
                         FontWeight="Bold"
-                        Margin="7,0"
                         FontSize="15"
-                        Name="toolDatespan"/>
+                        Name="toolDatespan" VerticalAlignment="Bottom" Click="toolDatespan_Click"/>
                 <Separator Background="Transparent"/>
                 <Button Content="Add" 
                         Background="#4a112b" 
@@ -107,6 +106,39 @@
                 <RowDefinition Height="7*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
+            <Grid>
+                <TabControl FontSize="35">
+                    <TabItem Header="Active">
+                        <ListBox ItemsSource="{Binding Collection.Active}">
+                            <ListBox.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel Orientation="Vertical"/>
+                                </ItemsPanelTemplate>
+                            </ListBox.ItemsPanel>
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <local:TaskControl/>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </TabItem>
+                    <TabItem Header="Ovedue">
+                        <ListBox ItemsSource="{Binding  Collection.Overdue}">
+                            <ListBox.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel Orientation="Vertical"/>
+                                </ItemsPanelTemplate>
+                            </ListBox.ItemsPanel>
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <local:TaskControl/>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </TabItem>
+                </TabControl>
+
+            </Grid>
 
             <Grid
                 Grid.Row="1"
